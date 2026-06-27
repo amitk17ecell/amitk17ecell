@@ -1,6 +1,7 @@
-![Banner](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=200&section=header&text=Amit%20Kumar%20Pandey%20👨‍💻&fontSize=50&fontColor=fff&animation=fadeIn)
+<!-- Futuristic Banner -->
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=220&section=header&text=Amit%20Kumar%20Pandey%20👨‍💻&fontSize=45&fontColor=ffffff&animation=twinkling)
 
-# 💫 About Me
+# 🦔 About Me
 🔭 **Currently working on**  
 Sharpening my DSA skills in C++ and building mini‑projects to level up my GitHub profile 🚀  
 
@@ -42,23 +43,29 @@ Every bug feels like a puzzle — solving it is my favorite dopamine rush ⚡�
 ---
 
 # 📊 GitHub Stats
-![](https://github-readme-stats.shion.dev/api?username=amitk17ecell&theme=radical&hide_border=false&include_all_commits=true&count_private=true)  
-![](https://streak-stats.demolab.com/?user=amitk17ecell&theme=radical&hide_border=false)  
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=amitk17ecell&theme=radical&hide_border=false&layout=compact)  
+![](https://github-readme-stats.shion.dev/api?username=amitk17ecell&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)  
+![](https://streak-stats.demolab.com/?user=amitk17ecell&theme=tokyonight&hide_border=false)  
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=amitk17ecell&theme=tokyonight&hide_border=false&layout=compact)  
 
 ---
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=amitk17ecell&theme=radical&no-frame=false&no-bg=false&margin-w=4)  
+![](https://github-profile-trophy.vercel.app/?username=amitk17ecell&theme=algolia&no-frame=false&no-bg=false&margin-w=4)  
 
 ---
 
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)  
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)  
 
 ---
 
-[![](https://komarev.com/ghpvc/?username=amitk17ecell&color=blue)](https://visitcount.itsvg.in)  
+### 🎶 Dynamic Contribution Graph
+![Snake animation](https://github.com/amitk17ecell/amitk17ecell/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+[![](https://komarev.com/ghpvc/?username=amitk17ecell&color=brightgreen)](https://visitcount.itsvg.in)  
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
 
