@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Animated data analytics dashboard: bar chart, line chart and KPI cards">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#1f6feb"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#238636"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="220" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="899" height="219" rx="14" fill="none" stroke="#30363d"/>
+
+  <!-- title -->
+  <text x="28" y="38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#c9d1d9" font-weight="600">Analytics Dashboard</text>
+  <circle cx="252" cy="33" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+
+  <!-- grid -->
+  <g stroke="#21262d" stroke-width="1">
+    <line x1="28" y1="70" x2="470" y2="70"/>
+    <line x1="28" y1="110" x2="470" y2="110"/>
+    <line x1="28" y1="150" x2="470" y2="150"/>
+    <line x1="28" y1="190" x2="470" y2="190"/>
+  </g>
+
+  <!-- bars -->
+  <g>
+    <rect x="46" y="190" width="34" height="0" rx="4" fill="url(#bar)">
+      <animate attributeName="height" values="0;58;58;0" dur="6s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+      <animate attributeName="y" values="190;132;132;190" dur="6s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+    </rect>
+    <rect x="100" y="190" width="34" height="0" rx="4" fill="url(#bar)">
+      <animate attributeName="height" values="0;92;92;0" dur="6s" begin="0.15s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+      <animate attributeName="y" values="190;98;98;190" dur="6s" begin="0.15s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+    </rect>
+    <rect x="154" y="190" width="34" height="0" rx="4" fill="url(#bar2)">
+      <animate attributeName="height" values="0;70;70;0" dur="6s" begin="0.3s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+      <animate attributeName="y" values="190;120;120;190" dur="6s" begin="0.3s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+    </rect>
+    <rect x="208" y="190" width="34" height="0" rx="4" fill="url(#bar)">
+      <animate attributeName="height" values="0;118;118;0" dur="6s" begin="0.45s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+      <animate attributeName="y" values="190;72;72;190" dur="6s" begin="0.45s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+    </rect>
+    <rect x="262" y="190" width="34" height="0" rx="4" fill="url(#bar2)">
+      <animate attributeName="height" values="0;86;86;0" dur="6s" begin="0.6s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+      <animate attributeName="y" values="190;104;104;190" dur="6s" begin="0.6s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+    </rect>
+    <rect x="316" y="190" width="34" height="0" rx="4" fill="url(#bar)">
+      <animate attributeName="height" values="0;104;104;0" dur="6s" begin="0.75s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+      <animate attributeName="y" values="190;86;86;190" dur="6s" begin="0.75s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+    </rect>
+    <rect x="370" y="190" width="34" height="0" rx="4" fill="url(#bar2)">
+      <animate attributeName="height" values="0;132;132;0" dur="6s" begin="0.9s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+      <animate attributeName="y" values="190;58;58;190" dur="6s" begin="0.9s" repeatCount="indefinite" keyTimes="0;0.25;0.85;1"/>
+    </rect>
+  </g>
+
+  <!-- trend line -->
+  <polyline points="46,166 118,142 190,148 262,112 334,120 406,80" fill="none" stroke="#f0883e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="420" stroke-dashoffset="420">
+    <animate attributeName="stroke-dashoffset" values="420;0;0;420" dur="6s" keyTimes="0;0.4;0.85;1" repeatCount="indefinite"/>
+  </polyline>
+  <circle r="4" fill="#f0883e">
+    <animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;1;1;0" keyTimes="0;0.4;0.85;1" path="M46,166 L118,142 L190,148 L262,112 L334,120 L406,80"/>
+  </circle>
+
+  <!-- KPI cards -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="510" y="46" width="170" height="66" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="526" y="70" font-size="11" fill="#8b949e">DATA WRANGLING</text>
+    <text x="526" y="96" font-size="20" fill="#58a6ff" font-weight="700">Pandas
+      <animate attributeName="opacity" values="0.35;1;1" dur="6s" keyTimes="0;0.3;1" repeatCount="indefinite"/>
+    </text>
+
+    <rect x="700" y="46" width="170" height="66" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="716" y="70" font-size="11" fill="#8b949e">QUERYING</text>
+    <text x="716" y="96" font-size="20" fill="#3fb950" font-weight="700">SQL
+      <animate attributeName="opacity" values="0.35;1;1" dur="6s" begin="0.4s" keyTimes="0;0.3;1" repeatCount="indefinite"/>
+    </text>
+
+    <rect x="510" y="126" width="360" height="64" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="526" y="150" font-size="11" fill="#8b949e">PIPELINE</text>
+    <text x="526" y="174" font-size="14" fill="#c9d1d9" font-weight="600">
+      <tspan fill="#8b949e">Raw Data</tspan> → <tspan fill="#58a6ff">Clean</tspan> → <tspan fill="#f0883e">Analyze</tspan> → <tspan fill="#3fb950">Visualize</tspan> → <tspan fill="#d2a8ff">Insights</tspan>
+    </text>
+  </g>
+</svg>
