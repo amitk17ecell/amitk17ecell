@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="130" viewBox="0 0 900 130" role="img" aria-label="Animated data analytics workflow: raw data, clean, analyze, visualize, insights">
+  <defs>
+    <linearGradient id="wbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="130" rx="14" fill="url(#wbg)"/>
+  <rect x="0.5" y="0.5" width="899" height="129" rx="14" fill="none" stroke="#30363d"/>
+
+  <line x1="70" y1="65" x2="830" y2="65" stroke="#21262d" stroke-width="2"/>
+  <line x1="70" y1="65" x2="830" y2="65" stroke="#58a6ff" stroke-width="2" stroke-dasharray="760" stroke-dashoffset="760">
+    <animate attributeName="stroke-dashoffset" values="760;0;0" dur="7s" keyTimes="0;0.8;1" repeatCount="indefinite"/>
+  </line>
+  <circle r="5" fill="#58a6ff">
+    <animateMotion dur="7s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.8;1" path="M70,65 L830,65"/>
+  </circle>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <g>
+      <circle cx="70" cy="65" r="14" fill="#0d1117" stroke="#8b949e" stroke-width="2"/>
+      <text x="70" y="36" font-size="13" fill="#8b949e" font-weight="600">Raw Data</text>
+      <text x="70" y="103" font-size="11" fill="#6e7681">Excel · CSV</text>
+    </g>
+    <g>
+      <circle cx="260" cy="65" r="14" fill="#0d1117" stroke="#58a6ff" stroke-width="2">
+        <animate attributeName="r" values="14;14;17;14" dur="7s" keyTimes="0;0.2;0.25;0.32" repeatCount="indefinite"/>
+      </circle>
+      <text x="260" y="36" font-size="13" fill="#58a6ff" font-weight="600">Clean</text>
+      <text x="260" y="103" font-size="11" fill="#6e7681">Pandas</text>
+    </g>
+    <g>
+      <circle cx="450" cy="65" r="14" fill="#0d1117" stroke="#f0883e" stroke-width="2">
+        <animate attributeName="r" values="14;14;17;14" dur="7s" keyTimes="0;0.4;0.45;0.52" repeatCount="indefinite"/>
+      </circle>
+      <text x="450" y="36" font-size="13" fill="#f0883e" font-weight="600">Analyze</text>
+      <text x="450" y="103" font-size="11" fill="#6e7681">SQL · Statistics</text>
+    </g>
+    <g>
+      <circle cx="640" cy="65" r="14" fill="#0d1117" stroke="#3fb950" stroke-width="2">
+        <animate attributeName="r" values="14;14;17;14" dur="7s" keyTimes="0;0.6;0.65;0.72" repeatCount="indefinite"/>
+      </circle>
+      <text x="640" y="36" font-size="13" fill="#3fb950" font-weight="600">Visualize</text>
+      <text x="640" y="103" font-size="11" fill="#6e7681">Matplotlib · Power BI</text>
+    </g>
+    <g>
+      <circle cx="830" cy="65" r="14" fill="#0d1117" stroke="#d2a8ff" stroke-width="2">
+        <animate attributeName="r" values="14;14;18;14" dur="7s" keyTimes="0;0.8;0.85;0.92" repeatCount="indefinite"/>
+      </circle>
+      <text x="830" y="36" font-size="13" fill="#d2a8ff" font-weight="600">Insights</text>
+      <text x="830" y="103" font-size="11" fill="#6e7681">Decisions</text>
+    </g>
+  </g>
+</svg>
