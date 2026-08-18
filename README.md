@@ -1,7 +1,7 @@
 <h1 align="center">Amit Kumar Pandey</h1>
 
 <p align="center">
-  <b>B.Tech CSE (AI) Student | Aspiring Data Analyst</b><br>
+  <b>B.Tech CSE (AI) Student |  Data Analyst</b><br>
   <sub>Turning data into insights • Building skills in Excel, SQL, Python & Power BI</sub><br>
   <sub>📍 Greater Noida, India &nbsp;•&nbsp; 🎓 Graduating 2028</sub>
 </p>
